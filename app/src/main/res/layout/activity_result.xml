@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/resultTV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:textColor="#1E2323"
+        android:textStyle="bold"
+        android:background="@drawable/q_back"
+        android:padding="15dp"
+        android:fontFamily="@font/agbalumo"
+        android:layout_margin="15dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/resultTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:textColor="#1E2323"
+        android:textStyle="bold"
+        android:fontFamily="@font/agbalumo"
+        android:background="@drawable/q_back"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/resultTV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:textColor="#1E2323"
+        android:textStyle="bold"
+        android:fontFamily="@font/agbalumo"
+        android:background="@drawable/q_back"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>
